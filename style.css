@@ -47,6 +47,7 @@ h2 {
 #bio {
     padding: 50px;
     text-align: center;
+    
 }
 
 .line {
@@ -120,4 +121,37 @@ h1 {
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 300;
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    
+}
+img:hover{
+    transform: scale(0.9);
+}
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
 }
